@@ -2,9 +2,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route("/")
 def home():
-    return "Hello from Render Deployment!"
+    return "Hello from Vercel Deployment!"
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run()
